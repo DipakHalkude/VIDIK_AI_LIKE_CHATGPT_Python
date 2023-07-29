@@ -9,7 +9,7 @@ import random
 chatstr=""
 def chat(query):
     global chatstr
-    openai.api_key = "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"
+    openai.api_key =""                    #"WRITE_API_KEY_OF_OPENAI"
     chatstr+=f"Dipak: {query}\n Vidik: "
     # Rest of your code
     response = openai.ChatCompletion.create(
